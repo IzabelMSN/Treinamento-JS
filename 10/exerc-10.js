@@ -3,5 +3,5 @@
 var img = document.querySelector('.imgH');
 
 img.addEventListener("mouseover", function mensagem() {
-    alert("Dê um joinha para o Hamster Luis!");
+    console.log("Dê um joinha para o Hamster Luis!");
 })

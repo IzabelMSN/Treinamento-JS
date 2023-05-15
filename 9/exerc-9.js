@@ -5,5 +5,5 @@ var inpt = document.querySelector('.inputM');
 
 inpt.addEventListener("change", function mensagem() {
     var mensg = document.querySelector('.inputM');
-    mensg.value = alert(mensg.value);
+    console.log(mensg.value);
 })
